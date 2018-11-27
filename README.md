@@ -3,6 +3,6 @@
 A custom battery indicator.
 
 ## Screenshot
-![Screenshot](sbbatterymeter.fig)
+![Screenshot](sbbatterymeter.gif)
 
 ## Integration
