@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ebebeb"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+
+        <com.android.noweaj.sensebotbatterylibrary.SenseBotBatteryMeter
+            android:id="@+id/sbbm1"
+            android:layout_width="0dp"
+            android:layout_height="225dp"
+            android:layout_weight="10"
+            app:battery_meter_title_text="SBBM1"
+            app:battery_meter_progress="23"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.android.noweaj.sensebotbatterylibrary.SenseBotBatteryMeter
+            android:id="@+id/sbbm2"
+            android:layout_width="0dp"
+            android:layout_height="225dp"
+            android:layout_weight="10"
+            app:battery_meter_title_text="SBBM2"
+            app:battery_meter_title_text_size="15dp"
+            app:battery_meter_percent_text_size="25dp"
+            app:battery_meter_progress="55"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.android.noweaj.sensebotbatterylibrary.SenseBotBatteryMeter
+            android:id="@+id/sbbm3"
+            android:layout_width="0dp"
+            android:layout_height="225dp"
+            android:layout_weight="10"
+            app:battery_meter_title_text="SBBM3"
+            app:battery_meter_title_text_size="19dp"
+            app:battery_meter_percent_text_size="30dp"
+            app:battery_meter_progress="85"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
