@@ -477,7 +477,7 @@ public class SenseBotBatteryMeter extends View {
         if(pBitmap != null){
             int bHeight = pBitmap.getHeight();
             int bWidth = pBitmap.getWidth();
-            System.out.println(bHeight + " / " + bWidth + " / " + getWidth() + " / " + (getWidth() * product_image_ratio / 100));
+//            System.out.println(bHeight + " / " + bWidth + " / " + getWidth() + " / " + (getWidth() * product_image_ratio / 100));
             Bitmap resized = null;
             while(bHeight > (getWidth() * product_image_ratio / 100)){
                 resized = Bitmap.createScaledBitmap(pBitmap, (bWidth * (getWidth() * product_image_ratio / 100))/bHeight, (getWidth() * product_image_ratio / 100), true);
